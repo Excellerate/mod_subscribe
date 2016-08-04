@@ -13,9 +13,6 @@
 // No direct access
 defined('_JEXEC') or die;
 
-// Load vendors
-include 'vendor/autoload.php';
-
 // Load helpers
 include 'helpers/db.php';
 include 'helpers/mailer.php';
