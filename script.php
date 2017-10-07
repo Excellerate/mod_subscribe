@@ -5,7 +5,7 @@ defined('_JEXEC') or die;
 /**
  * Script file of HelloWorld module
  */
-class mod_slicksliderInstallerScript
+class mod_subscribeInstallerScript
 {
     /**
      * Method to install the extension

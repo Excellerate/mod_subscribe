@@ -1,6 +1,6 @@
 <form class="ui subscribe form" action="<?php print Juri::current(); ?>" accept-charset="utf-8" method="post">
     <div class="field">
-        <div class="ui action input">
+        <div class="ui fluid action input">
             <input type="email" name="subscribe[email]" placeholder="Email address" value="">
             <input type="birthday" name="subscribe[birthday]" placeholder="" style="display:none;">
             <div class="ui subscribe button"><i class="right arrow icon"></i></div>

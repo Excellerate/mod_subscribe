@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1.0" client="site" method="upgrade">
     <name>Email Subscribe Form</name>
-    <author>codeChap</author>
+    <author>CodeChap</author>
     <version>1.0.0</version>
     <description>A simple web query contact module.</description>
     <files>
         <folder>tmpl</folder>
         <folder>helper</folder>
-        <filename>mod_query.xml</filename>
-        <filename module="mod_query">mod_query.php</filename>
+        <filename>mod_subscribe.xml</filename>
+        <filename module="mod_query">mod_subscribe.php</filename>
         <filename>index.html</filename>
-        <filename>helper/db.php</filename>
-        <filename>helper/mailer.php</filename>
+        <filename>helpers/db.php</filename>
+        <filename>helpers/mailer.php</filename>
         <filename>tmpl/default.php</filename>
         <filename>tmpl/index.html</filename>
     </files>
@@ -35,7 +35,7 @@
         </fields>
     </config>
     <updateservers>
-        <server type="extension" name="Query" priority="1">http://www.github.com/codechap/mod_subscribe/update.xml</server>
+        <server type="extension" name="Subscribe" priority="1">http://www.github.com/codechap/mod_subscribe/update.xml</server>
     </updateservers>
     <scriptfile>script.php</scriptfile>
 </extension>
